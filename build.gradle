@@ -40,6 +40,11 @@ dependencies {
     implementation "io.ktor:ktor-client-apache:$ktor_version"
     implementation "io.ktor:ktor-client-jetty:$ktor_version"
     implementation("io.ktor:ktor-client-cio:$ktor_version")
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+    implementation("com.squareup.okhttp3:okhttp:4.8.1")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.8.1")
+
 // https://mvnrepository.com/artifact/org.jaunt-lang/jaunt
     implementation("org.jaunt-lang:jaunt:1.9.0-RC2")
 

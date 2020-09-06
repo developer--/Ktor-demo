@@ -40,6 +40,8 @@ dependencies {
     implementation "io.ktor:ktor-client-apache:$ktor_version"
     implementation "io.ktor:ktor-client-jetty:$ktor_version"
     implementation("io.ktor:ktor-client-cio:$ktor_version")
+// https://mvnrepository.com/artifact/org.jaunt-lang/jaunt
+    implementation("org.jaunt-lang:jaunt:1.9.0-RC2")
 
 //    implementation "io.ktor:ktor-client-http-timeout:$ktor_version"
     implementation "io.ktor:ktor-client-auth-jvm:$ktor_version"

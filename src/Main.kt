@@ -15,7 +15,7 @@ import io.ktor.server.netty.Netty
 import java.lang.Exception
 
 
-const val targetUrl: String = "https://copart.com"
+const val targetUrl: String = "https://myauto.ge"
 fun main(args: Array<String>) {
     val car = Car(model = "Audi A4 B8", price = 5800.0)
     val server = embeddedServer(Netty, port = 8080) {
